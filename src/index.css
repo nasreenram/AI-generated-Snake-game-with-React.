@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-green: #39ff14;
+  --color-neon-pink: #ff00ff;
+  --color-neon-cyan: #00ffff;
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+}
+
+.neon-border-green {
+  border-color: var(--color-neon-green);
+  box-shadow: 0 0 10px var(--color-neon-green), inset 0 0 10px var(--color-neon-green);
+}
+
+.neon-border-pink {
+  border-color: var(--color-neon-pink);
+  box-shadow: 0 0 10px var(--color-neon-pink), inset 0 0 10px var(--color-neon-pink);
+}
+
+.neon-border-cyan {
+  border-color: var(--color-neon-cyan);
+  box-shadow: 0 0 10px var(--color-neon-cyan), inset 0 0 10px var(--color-neon-cyan);
+}
+
+.neon-text-green {
+  color: var(--color-neon-green);
+  text-shadow: 0 0 5px var(--color-neon-green), 0 0 10px var(--color-neon-green);
+}
+
+.neon-text-pink {
+  color: var(--color-neon-pink);
+  text-shadow: 0 0 5px var(--color-neon-pink), 0 0 10px var(--color-neon-pink);
+}
+
+.neon-text-cyan {
+  color: var(--color-neon-cyan);
+  text-shadow: 0 0 5px var(--color-neon-cyan), 0 0 10px var(--color-neon-cyan);
+}
